@@ -6,7 +6,7 @@ class Counter extends PureComponent{
         console.log("rerender")
         return(
             <div>
-                <h1>Counter Component {this.props.count}</h1>
+                <h1>Counter Component : {this.props.count}</h1>
             </div>
         )
     }
